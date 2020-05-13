@@ -6,9 +6,20 @@ import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { GarageComponent } from "./garage.component";
 import { CarComponent } from "./car.component";
+
+import { ParentComponent } from "./parent.component";
+import { ChildComponent } from "./child.component";
+
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, GarageComponent, CarComponent],
+  declarations: [
+    AppComponent,
+   HelloComponent, 
+   GarageComponent, 
+   CarComponent,
+   ParentComponent,
+  ChildComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
